@@ -1,0 +1,101 @@
+/*
+Declaring variables
+*/
+
+@eh-green: #1c9948;
+@images-root: "../images";
+@images-logo: "@{images-root}/iv/eventhud-main-logo.png";
+@images-logo-white: "@{images-root}/iv/eventhud-main-logo-white.png";
+
+/*
+Styling
+*/
+
+*, ::before, ::after {
+  box-sizing:inherit;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-size: inherit;
+}
+
+main {
+  //padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+  main {
+    padding-left: 0;
+  }
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display:block;
+}
+
+.eh-bg-color {
+  background: @eh-green;
+}
+
+.page-title {
+  color: @eh-green;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-wrapper {
+  background-color: @eh-green;
+}
+
+.brand-logo {
+  //background: url("@{images-logo-white}") no-repeat;
+  width: 179px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#profile-img-nav {
+  width: 30px;
+  height: 30px;
+  margin-top: .525em;
+}
+
+#main-menu-side {
+  margin-top: 65px;
+  z-index: ;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 90%;
+  max-width: 1280px;
+}
+
+.row .col.s12 {
+  left: auto;
+  margin-left: auto;
+  right: auto;
+  width: 100%;
+}
+
+.lorem {
+  text-align: justify;
+}
+
+//dialog test
+.main-menu-right-collapse {
+  margin-left: 10px;
+}
+
+#dialog-test {
+  width: 500px;
+}

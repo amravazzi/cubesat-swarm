@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Import materialize.css -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Cubesat Swarm App</title>
+
+  </head>
+
+  <body>
+
+    <!--
+      Main Structure
+    -->
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+
+            <h4 class="page-title">Cubesat Swarm</h4>
+
+            <!--
+            QUERY A CUBESAT
+            -->
+            <div class="card">
+              <div class="card-content">
+                <h5 class="card-title">Query a cubesat</h5>
+                <div class="row">
+                  <form class="col s12" action=" ">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input type="checkbox" id="button1" />
+                        <label for="button1">Red</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input type="checkbox" id="button2" />
+                        <label for="button2">Green</label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input type="checkbox" id="button3" />
+                        <label for="button3">Blue</label>
+                      </div>
+                    </div>
+
+                    <button class="btn waves-effect waves-light right" type="submit" name="action">Send the Query</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+
+  </body>
+</html>
